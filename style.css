@@ -1,0 +1,28 @@
+#gridContainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    background-color: rgb(66, 44, 44);
+    flex: 1 1 auto;
+}
+.row * {
+    min-width: 4px;
+    min-height: 4px;
+    aspect-ratio: 1 / 1;
+    flex: 1 1 auto;
+    
+}
+
+.hoveredDiv{
+    background-color: bisque;
+}
+
+#newGridButt{
+    margin: 10px;
+}
