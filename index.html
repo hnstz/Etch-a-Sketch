@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js" defer></script>
+    <title>Etch-a-Sketch | Portfolio Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Etch-a-Sketch</title>
+    <script src="./script.js" defer></script>
 </head>
-
 <body>
-    <div id="container">
-        <button id="newGridButt">Click me for a new grid!</button>
+    <div id="app-container">
+        <header>
+            <h1>Etch-a-Sketch</h1>
+            <p>Draw something awesome</p>
+        </header>
+        
+        <div class="controls">
+            <button id="newGridButt">Create New Grid</button>
+        </div>
+
         <div id="gridContainer"></div>
     </div>
 </body>
-
 </html>
